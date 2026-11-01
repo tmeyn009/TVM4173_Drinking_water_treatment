@@ -52,4 +52,4 @@ The notebooks are teaching tools. The chemistry uses the constants of Plummer & 
 
 ## Contact
 
-Thomas Meyn, Department of Civil and Environmental Engineering, NTNU – thomas.meyn@ntnu.no
+Thomas Meyn, Department of Civil and Environmental Engineering, NTNU – [staff page](https://www.ntnu.edu/employees/thomas.meyn)
