@@ -719,7 +719,7 @@ def hand_check():
 import os
 from pathlib import Path
 
-FIG_DIR = Path.home() / "shared" / "figures" / "stabilisation"   # pictures in the hub's shared folder
+FIG_DIR = Path.home() / "shared" / "figures" / "stabilisation"   # lecture pictures (not part of the repository)
 PSTYLE = {"description_width": "130px"}
 PWIDE = widgets.Layout(width="390px")
 OK_BG, BAD_BG, NEUTRAL_BG = "rgba(67,160,71,0.25)", "rgba(229,57,53,0.25)", "rgba(128,128,128,0.15)"
@@ -734,10 +734,9 @@ def setup():
         _plt().style.use("dark_background" if DARK else "default")
     fig = ("Plotly (hover, zoom)" if USE_PLOTLY else "matplotlib") + (", dark" if DARK else ", light")
     if FIG_DIR.is_dir():
-        pics = f"pictures from <code>{FIG_DIR}</code>"
+        pics = "lecture pictures: available"
     else:
-        pics = (f"<b>picture folder <code>{FIG_DIR}</code> not found</b> – pictures are replaced by "
-                "references to the lecture slides")
+        pics = "lecture pictures: not available – the text refers to the lecture slides instead"
     display(HTML(f"<small>Toolbox loaded · figures: {fig} · {pics}</small>"))
 
 
@@ -750,7 +749,7 @@ def pslider(value, vmin, vmax, step, text, fmt=None):
 
 
 def picture(items, fallback=""):
-    """Show pictures from the shared folder side by side.
+    """Show lecture pictures side by side (if available).
     items: list of (file name, caption, width in px)."""
     boxes, missing = [], []
     for fname, cap, w in items:

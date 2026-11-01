@@ -1,4 +1,4 @@
-# Packages used by the notebooks (already installed on the TVM4173 JupyterHub).
+# Packages used by the notebooks.
 numpy
 scipy
 pandas
