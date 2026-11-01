@@ -12,7 +12,7 @@ Self-study notebooks for the course **TVM4173 Drinking Water Treatment** at the 
 
 ## Contents
 
-### `Filtration models/` – Rapid filtration
+### `filtration_models/` – Rapid filtration
 
 `Filtration_models_just_RT.ipynb` with the helper module `filtration_functions.py`: particle transport to filter grains and filtration models.
 
