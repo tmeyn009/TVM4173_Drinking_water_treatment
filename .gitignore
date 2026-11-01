@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# files students create with the export buttons in the stabilisation notebooks
+design_summary.csv
+my_design_summary.csv
+my_design_summary.html
+my_design_deffeyes.png
+
+# operating systems
+.DS_Store
+Thumbs.db
+desktop.ini

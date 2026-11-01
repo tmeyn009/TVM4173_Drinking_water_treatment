@@ -1,0 +1,9 @@
+# Packages used by the notebooks (already installed on the TVM4173 JupyterHub).
+numpy
+scipy
+pandas
+matplotlib
+ipywidgets>=8
+# optional: interactive figures (without them the notebooks fall back to matplotlib)
+plotly>=5
+anywidget
